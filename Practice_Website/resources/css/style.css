@@ -93,6 +93,12 @@ h2:after{
 	margin-bottom: 10px;
 }
 
+.icon-small{
+	font-size: 100%;
+	color: #e67e22;
+	margin-right: 10px;
+}
+
 
 /*------BUTTONS-----*/
 .btn:link,
@@ -147,6 +153,7 @@ header{
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
+	background-attachment: fixed;
 }
 
 .hero-text-box{
@@ -280,5 +287,106 @@ header{
 	height: 50px;
 	width: auto;
 	margin-right: 10px;
+}
+
+
+/*-------CITIES-------*/
+
+.city-div img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.city-feature i{
+	color: #e67e22;
+	margin-bottom: 5px;
+}
+
+.twitter{
+	color:#e67e22;
+}
+
+/*-------TESTIMONIALS--------*/
+
+.testimonials{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+	background-size: cover;
+	color:white;
+	background-attachment: fixed;
+}
+
+blockquote{
+	padding:2%;
+	font-style: italic;
+	line-height: 145%;
+	position: relative;
+	margin-top: 40px;
+}
+
+blockquote:before{
+	content:"\201C";
+	font-size: 500%;
+	display:block;
+	position: absolute;
+	top:-5px;
+	left: -5px;
+}
+
+cite{
+	font-size: 90%;
+	margin-top: 25px;
+	display: block;
+}
+
+cite img{
+	height: 45px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+/*------SIGN-UP-----------*/
+.section-plans{
+	background-color: #f4f4f4;
+}
+
+.plan-box{
+	background-color: white;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.plan-box div{
+	padding: 15px;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.plan-box div: last-child{
+	text-align: center;
+}
+
+.plan-price{
+	font-size:300%;
+	margin-bottom: 10px;
+	font-weight: 100;
+	color: #e67e22;
+}
+
+.plan-price span{
+	font-size:30%;
+	font-weight: 300;
+}
+
+.plan-price-meal{
+	font-size: 80%;
+}
+
+.plan-box ul{
+	list-style: none;
+}
+
+.plan-box ul li{
+	padding: 5px 0;
 }
 
