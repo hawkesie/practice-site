@@ -77,7 +77,7 @@
 
 }
 
-/*Small Phones:; from 0 to 480 pixels*/
+/*Small Phones: from 0 to 480 pixels*/
 @media only screen and (max-width: 480px){
 	section{padding: 25px 0;}
 	.contact-form{width: 100%;}
